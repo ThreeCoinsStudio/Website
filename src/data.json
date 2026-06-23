@@ -1,7 +1,7 @@
 {
   "navigation": {
     "studioName": "Three Coins Studio",
-    "studioIcon": "",
+    "studioIcon": "./icon.png",
     "demoButtonText": "Play Demo"
   },
   "hero": {
@@ -11,15 +11,14 @@
     "description": "A fast-paced 3D action roguelike where you play as a gumball machine, shooting bouncing candy to survive waves of enemies. Build your loadout, and reclaim your mall before it's too late.",
     "primaryButton": "Play Demo on Steam",
     "secondaryButton": "Watch Teaser",
-    "backgroundImage": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=1800&q=85"
+    "backgroundImage": "./bg.png"
   },
   "project": {
     "statusLabel": "CURRENT STATUS",
     "version": "Demo",
     "difficulty": "Brutal",
     "versionLabel": "Version",
-    "difficultyLabel": "Difficulty",
-    "description": "A focused playable demo is live, with combat tuning and wishlist growth guiding the next release push."
+    "difficultyLabel": "Difficulty"
   },
   "stats": [
     { "value": "130+", "label": "WISHLISTS" },
@@ -81,7 +80,6 @@
   "links": {
     "steam": "https://store.steampowered.com/app/3403690/Gumball_Hero/",
     "discord": "https://discord.com/invite/xzJBRKRT8s",
-    "teaser": "https://store.steampowered.com/app/3403690/Gumball_Hero/",
     "pitchDeck": "#",
     "steamStore": "#"
   },

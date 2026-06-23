@@ -1,11 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { Search, Gamepad2, Timer, Wand2, Zap, ExternalLink, Heart, ArrowRight, User } from 'lucide-react';
 import data from './data.json';
-import { PitchDeckViewer } from './components/PitchDeckViewer';
 
 export default function App() {
   const [scrolled, setScrolled] = useState(false);
-  const [isPitchDeckOpen, setIsPitchDeckOpen] = useState(false);
 
   // Handle mobile haptic feedback roughly (if available in modern browsers)
   const handleInteract = () => {
@@ -273,21 +271,12 @@ export default function App() {
           <div className="flex flex-wrap justify-center md:justify-end gap-8 md:gap-10 font-mono tracking-[0.1em] text-xs uppercase items-center">
              <a href={data.links.steamStore} className="hover:text-solar-gold transition-colors font-bold">{Object.keys(data.links)[0]} Store</a>
              <a href={data.links.discord} className="hover:text-solar-gold transition-colors font-bold">Discord</a>
-             <button onClick={() => setIsPitchDeckOpen(true)} className="hover:text-solar-gold transition-colors font-bold cursor-pointer">Pitch Deck</button>
              <div className="hidden sm:flex items-center justify-center w-12 h-12 border border-white/10 rounded-xl ml-4 bg-surface-container overflow-hidden">
                {data.navigation.studioIcon && <img src={data.navigation.studioIcon} alt="Logo" className="w-full h-full object-contain p-1" />}
              </div>
           </div>
         </div>
       </footer>
-
-      {/* Pitch Deck Modal */}
-      <PitchDeckViewer 
-        isOpen={isPitchDeckOpen} 
-        onClose={() => setIsPitchDeckOpen(false)} 
-        slides={data.pitchDeck.slides} 
-        title={data.pitchDeck.title} 
-      />
     </div>
   );
 }

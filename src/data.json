@@ -18,7 +18,8 @@
     "version": "Demo",
     "difficulty": "Brutal",
     "versionLabel": "Version",
-    "difficultyLabel": "Difficulty"
+    "difficultyLabel": "Difficulty",
+    "description": "The demo is live with high-tempo combat, evolving builds, and a focused roguelike loop built for short, replayable sessions."
   },
   "stats": [
     { "value": "130+", "label": "WISHLISTS" },
@@ -80,6 +81,7 @@
   "links": {
     "steam": "https://store.steampowered.com/app/3403690/Gumball_Hero/",
     "discord": "https://discord.com/invite/xzJBRKRT8s",
+    "teaser": "https://store.steampowered.com/app/3403690/Gumball_Hero/",
     "pitchDeck": "#",
     "steamStore": "#"
   },

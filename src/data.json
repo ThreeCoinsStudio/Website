@@ -1,0 +1,196 @@
+{
+  "navigation": {
+    "studioName": "Three Coins Studio",
+    "studioIcon": "./assets/.aistudio/icon.png",
+    "demoButtonText": "Play Demo"
+  },
+  "hero": {
+    "eventSub": "STEAM NEXT FEST PARTICIPATED",
+    "title": "Gumball",
+    "titleHighlight": "Hero",
+    "description": "A fast-paced 3D action roguelike where you play as a gumball machine, shooting bouncing candy to survive waves of enemies. Build your loadout, and reclaim your mall before it's too late.",
+    "primaryButton": "Play Demo on Steam",
+    "secondaryButton": "Watch Teaser",
+    "backgroundImage": "./assets/.aistudio/bg.png"
+  },
+  "project": {
+    "statusLabel": "CURRENT STATUS",
+    "version": "Demo",
+    "difficulty": "Brutal",
+    "versionLabel": "Version",
+    "difficultyLabel": "Difficulty"
+  },
+  "stats": [
+    { "value": "130+", "label": "WISHLISTS" },
+    { "value": "60+", "label": "ACTIVE PLAYERS" },
+    { "value": "9min", "label": "MEDIAN PLAYTIME" }
+  ],
+  "sprints": {
+    "headline": "4-Month Sprints.",
+    "headlineHighlight": "Maximum Impact.",
+    "description": "We believe in momentum. By constraining our development cycles, we force creative innovation and deliver polished, high-octane experiences without the bloat.",
+    "cards": {
+      "main": {
+        "title": "Scope Control",
+        "description": "How small scope leads to bigger audiences. We refine the core loop until it's perfect before adding a single piece of fluff.",
+        "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80"
+      },
+      "secondary1": {
+        "title": "Agile Focus",
+        "description": "Zero technical debt. Just pure playability.",
+        "icon": "Timer"
+      },
+      "secondary2": {
+        "title": "Community Driven",
+        "description": "Every sprint cycle ends with a public playtest. You shape the game.",
+        "action": "Learn More"
+      }
+    }
+  },
+  "features": {
+    "badge": "SPECIALIZATION",
+    "title": "The",
+    "highlight": "Roguelike",
+    "suffix": "Masters",
+    "description": "We don't just build games; we engineer loops. Our obsession with procedural generation and permanent progression ensures that no two runs of Gumball Hero are ever the same.",
+    "image": "https://images.unsplash.com/photo-1552820728-8b83bb6b773f?auto=format&fit=crop&w=600&q=80",
+    "items": [
+      { "title": "Procedural Perfection", "description": "Algorithms that prioritize flow over randomness." },
+      { "title": "Kinetic Combat", "description": "High-fidelity physics interaction that feels snappy and responsive." }
+    ]
+  },
+  "founders": {
+    "title": "The",
+    "highlight": "Founders",
+    "description": "The visionaries behind the machine, engineering the future of roguelike loops.",
+    "list": [
+      { "name": "Zaid", "role": "CHIEF EXECUTIVE OFFICER", "description": "Driving the studio's vision and strategic growth in the global gaming market.", "avatar": "https://api.dicebear.com/9.x/bottts-neutral/svg?seed=Zaid" },
+      { "name": "Salem", "role": "CHIEF TECHNOLOGY OFFICER", "description": "Architecting high-performance procedural systems and kinetic combat engines.", "avatar": "https://api.dicebear.com/9.x/bottts-neutral/svg?seed=Salem" },
+      { "name": "Mohammed", "role": "CHIEF OPERATING OFFICER", "description": "Optimizing development pipelines and ensuring peak studio performance.", "avatar": "https://api.dicebear.com/9.x/bottts-neutral/svg?seed=Mohammed" }
+    ]
+  },
+  "cta": {
+    "title": "Ready to Defend the Mall?",
+    "description": "Join other heroes in the fight. Wishlist Gumball Hero now to get notified the second we launch into Early Access.",
+    "buttons": {
+      "primary": "Wishlist on Steam",
+      "secondary": "Join our Discord"
+    }
+  },
+  "links": {
+    "steam": "https://store.steampowered.com/app/3403690/Gumball_Hero/",
+    "discord": "https://discord.com/invite/xzJBRKRT8s",
+    "pitchDeck": "#",
+    "steamStore": "#"
+  },
+  "pitchDeck": {
+    "title": "Pitch Deck",
+    "slides": [
+      {
+        "id": 1,
+        "layout": "cover",
+        "title": "THREE COINS STUDIO",
+        "subtitle": "Pitch Deck",
+        "content": "Filling Gaps in The Market For Premium Games with Malleable IPs"
+      },
+      {
+        "id": 2,
+        "layout": "text",
+        "title": "Every run/build can be viable and yet different",
+        "content": "Playing as Sigma from Overwatch. Roguelike: every SHOT is different - Gumball Hero (our product)."
+      },
+      {
+        "id": 3,
+        "layout": "list",
+        "title": "Gumball Hero",
+        "items": [
+          { "label": "Why make this game?", "value": "Roguelike market valued at 3.8 billion$ (Market Intelo)" },
+          { "label": "Why Now?", "value": "Expected to reach 9.6 billion$ by 2034 (Market Intelo)" },
+          { "label": "Why Us?", "value": "We work within our scope" },
+          { "label": "Price", "value": "6.99$" },
+          { "label": "Production cost without salaries", "value": "400$ (Steam listing included)" }
+        ]
+      },
+      {
+        "id": 4,
+        "layout": "cards",
+        "title": "Target Player/Market",
+        "items": [
+          { "label": "Roguelike players" },
+          { "label": "Players looking for a short game" },
+          { "label": "Player looking for a different unserious tone" }
+        ]
+      },
+      {
+        "id": 5,
+        "layout": "cards",
+        "title": "Traction",
+        "items": [
+          { "label": "Social Media", "value": "130 followers across" },
+          { "label": "Wishlists", "value": "99 Steam" },
+          { "label": "Demo", "value": "584 added to library" }
+        ]
+      },
+      {
+        "id": 6,
+        "layout": "list",
+        "title": "Business Model",
+        "items": [
+          { "value": "Short dev cycle (4 months)" },
+          { "value": "Keep the player wanting more" },
+          { "value": "Keep cost low AT ALL COSTS" },
+          { "value": "Transmedia" },
+          { "value": "Build a 2nd team" },
+          { "value": "Stage 1 → Stage 2" }
+        ]
+      },
+      {
+        "id": 7,
+        "layout": "team",
+        "title": "Our Team",
+        "items": [
+          { "label": "Salem Albanaqi", "sub": "CTO", "value": "Saudi Game Champion Accelerator Studio Founder, Wishlist: 236, Live Demo Units: 16,886, Internship at Steer studios" },
+          { "label": "Zaid AbuAbdullah", "sub": "CEO", "value": "Game Designer at Limeless, Saudi Game Champion Accelerator Studio Founder, 1 Board Game Title, Paramedic" },
+          { "label": "Mohammed Murad", "sub": "COO", "value": "Game Director at UMX Studio, Game Developer at M4DOOM, Saudi Game Champion Accelerator Studio Founder, 3 Titles on Steam - 250K Downloads - 10K+ Wishlists, Tuwaiq Academy Instructor" }
+        ]
+      },
+      {
+        "id": 8,
+        "layout": "cards",
+        "title": "Roadmap",
+        "items": [
+          { "label": "30 days", "value": "finish the project" },
+          { "label": "60 days", "value": "finalize the project → release. Start validating the next project" },
+          { "label": "90 days", "value": "start pre-production and production on next project" }
+        ]
+      },
+      {
+        "id": 9,
+        "layout": "list",
+        "title": "Why Us",
+        "items": [
+          { "value": "1- We don't put all our eggs in the one basket, just like you." },
+          { "value": "2- We're very coachable and eager to learn when it comes to business development, at the same time we are confident in making decisions on our own and subsequently face the challenges that comes with those decisions." },
+          { "value": "3- We have an inside view at the market, both globally and locally, not only do we know what the market needs, but we also know how to make it. We also know who's a competitor and who's not." },
+          { "value": "4- We know when to say \"No\" and we also know when to say \"Yes\". We don't bite more than we can chew, and every risk we take is preceded by all the certainty we can muster." },
+          { "value": "5- We're fully invested in this company, we chose this industry knowing full well its challenges and having experienced its tribulations first hand. We've decided to move forward regardless." },
+          { "value": "6- We handle money like a mother handles a baby, it's only meant to grow. check Financials for more details." }
+        ]
+      },
+      {
+        "id": 10,
+        "layout": "contact",
+        "title": "Thank You",
+        "subtitle": "Thanks for your consideration",
+        "content": "Presented By Three Coins Studio",
+        "contact": {
+          "x": "https://x.com/threecoinsteam",
+          "email": ""
+        }
+      }
+    ]
+  },
+  "footer": {
+    "copyright": "© 2026 Three Coins Studio. Built in 4-month sprints."
+  }
+}
